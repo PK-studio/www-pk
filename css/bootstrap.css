@@ -1083,10 +1083,10 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
   line-height: 30px;
-  font-weight: 300;
+  font-weight: 400;
   color: #929191;
   background-color: #fff;
 
@@ -4226,7 +4226,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-right: 20px;
   padding-left: 20px;
 }
-@media (min-width: 768px) {
+@media (min-width: 790px) {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
@@ -4249,8 +4249,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
   .container-fluid > .navbar-collapse {
-    padding-right: 18%;
-    padding-left: 18%;
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+}
+@media (min-width: 1600px) {
+  .container > .navbar-header,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
+    padding-right: 16%;
+    padding-left: 16%;
   }
 }
 .navbar-static-top {
@@ -4285,6 +4294,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
+  font-family: 'Courgette', cursive;
   float: left;
   font-size: 50px;
   line-height: 50px;
@@ -4522,7 +4532,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background: transparent;
+  background: #000;
   font-size: 24px;
   padding-top: 30px;
   padding-bottom: 30px;

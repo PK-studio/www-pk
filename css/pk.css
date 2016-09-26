@@ -39,7 +39,7 @@
     font-weight: 700;
     font-size: 60px;
     letter-spacing: -2px;
-    line-height: 50px;
+    line-height: 65px;
 }
 .container-title span  {
     display: block;
@@ -146,7 +146,7 @@
 @media (min-width: 768px) {
 	.section2 {
 		margin-top: -550px;
-		height: 880px;	
+		height: 930px;	
 		position: relative;		
 	}
 }
@@ -383,14 +383,14 @@ div.portfolio-item:nth-child(3n) {
 }
 .portfolio-item span {
 	display: block;
-	font-size: 60px;
+	font-size: 76px;
 	padding-top: 20px;
 }
 .portfolio-item  h4{
 	text-transform: uppercase;
 	font-weight: 600;
-	padding-top: 14px;
-	font-size: 18px;
+	padding-top: 16px;
+	font-size: 20px;
 	color: #609BC5;
 }
 .portfolio-item  h4:after{
@@ -403,7 +403,7 @@ div.portfolio-item:nth-child(3n) {
     margin: 20px auto;
 }
 .portfolio-item  p{
-	font-size: 18px;
+	font-size: 20px;
 	color: #929191;
 }
 .portfolio-item-overlay {
@@ -539,7 +539,7 @@ div.portfolio-item:nth-child(3n) {
 /* SECTION 8 ////////////////////////////////////////////////////////////////////////////////// SECTION 8 */
 .contact {
     background-image: url(../img/footer.jpg);
-	height: 320px;
+	height: 360px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -565,13 +565,25 @@ div.portfolio-item:nth-child(3n) {
 .footer p {
     margin: 0;
     font-size: 16px;
+    line-height: 34px;
     color: #989898;
 }
 @media (min-width: 767px) {
     .contact {
-	height: 260px;
+	height: 320px;
+    }
+    .contact h1 {
+    padding-top: 100px;
     }
     .contact div {
-    padding-top: 40px;
+    padding-top: 50px;
+    }
+}
+@media (min-width: 1000px) {
+    .right{
+        text-align: right !important;
+    }
+    .left{
+        text-align: left !important;
     }
 }

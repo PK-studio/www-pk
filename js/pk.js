@@ -173,27 +173,27 @@ $(document).ready(function(){
 $(document).ready(function(){
 	/*job1*/
 	$('#job1').on('shown.bs.collapse', function () {
-	   $("#jobicon1").removeClass("glyphicon-menu-down hvr-sink").addClass("glyphicon-menu-up hvr-float");
+	   $("#jobicon1").removeClass("fontello-zoom-in-2").addClass("fontello-zoom-out-3");
 	});
 	$('#job1').on('hidden.bs.collapse', function () {
-	   $("#jobicon1").removeClass("glyphicon-menu-up hvr-float").addClass("glyphicon-menu-down hvr-sink");
+	   $("#jobicon1").removeClass("fontello-zoom-out-3").addClass("fontello-zoom-in-2");
 	});
 	
 	/*job2*/
 	$('#job2').on('shown.bs.collapse', function () {
-	   $("#jobicon2").removeClass("glyphicon-menu-down hvr-sink").addClass("glyphicon-menu-up hvr-float");
+	   $("#jobicon2").removeClass("fontello-zoom-in-2").addClass("fontello-zoom-out-3");
 	});
 	$('#job2').on('hidden.bs.collapse', function () {
-	   $("#jobicon2").removeClass("glyphicon-menu-up hvr-float").addClass("glyphicon-menu-down hvr-sink");
+	   $("#jobicon2").removeClass("fontello-zoom-out-3").addClass("fontello-zoom-in-2");
 	});
 	
 	/*job3*/
 	$('#job3').on('shown.bs.collapse', function () {
-	   $("#jobicon3").removeClass("glyphicon-menu-down hvr-sink").addClass("glyphicon-menu-up hvr-float");
+	   $("#jobicon3").removeClass("fontello-zoom-in-2").addClass("fontello-zoom-out-3");
 	});
 
 	$('#job3').on('hidden.bs.collapse', function () {
-	   $("#jobicon3").removeClass("glyphicon-menu-up hvr-float").addClass("glyphicon-menu-down hvr-sink");
+	   $("#jobicon3").removeClass("fontello-zoom-out-3").addClass("fontello-zoom-in-2");
 	});
 });
 
@@ -206,7 +206,7 @@ $(document).ready(function(){
 		stop = Math.round($(window).scrollTop());
 		if (stop >= changenavigation) {
 			$("#job1, #job2, #job3").removeClass("customCollapse collapse in").addClass("customCollapse collapse");
-			$("#jobicon1, #jobicon2, #jobicon3").removeClass("glyphicon-menu-up hvr-float").addClass("glyphicon-menu-down hvr-sink");
+			$("#jobicon1, #jobicon2, #jobicon3").removeClass("fontello-zoom-out-3").addClass("fontello-zoom-in-2");
 		}
 	});	
 });*/
